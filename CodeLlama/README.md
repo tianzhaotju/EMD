@@ -35,3 +35,7 @@ To run Code Llama with Fine-tune with Instruction to make inferences on the test
 cd code
 python test_ft.py
 ```
+
+
+
+*Note:* Please download checkpoint through the [fine-tuned model](https://zenodo.org/records/10967393).

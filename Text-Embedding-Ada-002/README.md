@@ -19,3 +19,6 @@ cd code
 python test.py
 ```
 
+
+
+*Note:* Please download **.npy** and **.bin** files through the [fine-tuned model](https://zenodo.org/records/10967393).

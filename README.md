@@ -59,7 +59,7 @@ All the pre-processed data used in our experiments can be downloaded from [`./da
 ## 3. Models
 
 ### How to access the models
-All the models' checkpoints in our experiments can be downloaded from our anonymous Zenodo([link1](https://zenodo.org/records/10963111?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjMwZmMzNjkyLTUyNmYtNDY0Ny1iNzEwLTM4MjcyNmFmZjFkZCIsImRhdGEiOnt9LCJyYW5kb20iOiI5OTU3YTlhN2EzY2YzZjM3M2NiOGExZGNkYTQ2YTZkMiJ9.y0M8Ru3xYwTD0dQ1yQR_oj3Pnh87s4VSMm7JMe-qeoBPaXHCAYUhKVM9Mk8bB_WCSaiBBq-CfuE8d0e4nKXwsw),[link2](https://zenodo.org/records/10957683?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjI4MDE1ZDBmLWFkNzktNGViMy04MjZiLTU4NzdkYThkOGU2MCIsImRhdGEiOnt9LCJyYW5kb20iOiI5MmRiYjVjNGRlZDlhYjdmN2IwMGQ1NmY1MmQyNGE0MSJ9.Da-YoAZnsc3riqTb3E8d2Fxf5VVL4b4Td-08vpKDzFfQjfq751JwPX8W0aCN9HVqk96lNM_4_bLdgNW_lhwaRQ)).
+All the models' checkpoints in our experiments can be downloaded from our anonymous Zenodo([link1](https://zenodo.org/records/10967393),[link2](https://zenodo.org/records/10957683)).
 
 -- --- ---
 
@@ -72,7 +72,7 @@ For running the **closed-source LLMs** (i.e., ChatGPT and Text-Embedding Models)
 
 ### Demo
 Let's take the *pre-trained UniXCoder* as an example. 
-The `dataset` folder contains the training and inference data. 
+The `./dataset` folder contains the training and test data. 
 
 #### (1) Training phase
 You can train the model through the following commands:

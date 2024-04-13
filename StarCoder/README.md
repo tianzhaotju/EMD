@@ -17,4 +17,6 @@ cd code
 python test.py
 ```
 
-*Note:* Before you start the inference, please make sure that you have downloaded the [fine-tuned model](https://zenodo.org/records/10957683?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjI4MDE1ZDBmLWFkNzktNGViMy04MjZiLTU4NzdkYThkOGU2MCIsImRhdGEiOnt9LCJyYW5kb20iOiI5MmRiYjVjNGRlZDlhYjdmN2IwMGQ1NmY1MmQyNGE0MSJ9.Da-YoAZnsc3riqTb3E8d2Fxf5VVL4b4Td-08vpKDzFfQjfq751JwPX8W0aCN9HVqk96lNM_4_bLdgNW_lhwaRQ) and saved it under the ```save_models/``` folder.
+*Note 1:* Before you start the inference, please make sure that you have downloaded the [fine-tuned model](https://zenodo.org/records/10957683?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjI4MDE1ZDBmLWFkNzktNGViMy04MjZiLTU4NzdkYThkOGU2MCIsImRhdGEiOnt9LCJyYW5kb20iOiI5MmRiYjVjNGRlZDlhYjdmN2IwMGQ1NmY1MmQyNGE0MSJ9.Da-YoAZnsc3riqTb3E8d2Fxf5VVL4b4Td-08vpKDzFfQjfq751JwPX8W0aCN9HVqk96lNM_4_bLdgNW_lhwaRQ) and saved it under the ```save_models/``` folder.
+
+*Note 2:* `--requires_grad=0` indicates pre-trained code embedding strategy, and `--requires_grad=1` indicates fine-tuned code embedding strategy.

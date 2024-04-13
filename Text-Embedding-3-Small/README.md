@@ -11,9 +11,9 @@ python train.py
 ```
 
 ### (2) Testing
-Please ensure you have the **text-embedding-3-small.bin** on ```./saved_models/checkpoints/``` folder, 
-and **text-embedding-3-small.npy** on ```./saved_models/embeddings/``` folder.  
-After that, you can apply the pre-trained code embedding and trained classifier on test dataset, through the following commands:
+Please ensure you download [text-embedding-3-small.bin](https://zenodo.org/records/10963111?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjMwZmMzNjkyLTUyNmYtNDY0Ny1iNzEwLTM4MjcyNmFmZjFkZCIsImRhdGEiOnt9LCJyYW5kb20iOiI5OTU3YTlhN2EzY2YzZjM3M2NiOGExZGNkYTQ2YTZkMiJ9.y0M8Ru3xYwTD0dQ1yQR_oj3Pnh87s4VSMm7JMe-qeoBPaXHCAYUhKVM9Mk8bB_WCSaiBBq-CfuE8d0e4nKXwsw) on ```./saved_models/checkpoints/``` folder, 
+and [text-embedding-3-small.npy](https://zenodo.org/records/10963111?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjMwZmMzNjkyLTUyNmYtNDY0Ny1iNzEwLTM4MjcyNmFmZjFkZCIsImRhdGEiOnt9LCJyYW5kb20iOiI5OTU3YTlhN2EzY2YzZjM3M2NiOGExZGNkYTQ2YTZkMiJ9.y0M8Ru3xYwTD0dQ1yQR_oj3Pnh87s4VSMm7JMe-qeoBPaXHCAYUhKVM9Mk8bB_WCSaiBBq-CfuE8d0e4nKXwsw) on ```./saved_models/embeddings/``` folder.
+After that, you can apply the pre-trained code embedding and trained the classifier on test dataset, through the following commands:
 ```
 cd code
 python test.py

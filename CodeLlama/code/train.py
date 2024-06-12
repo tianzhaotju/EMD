@@ -12,5 +12,5 @@ os.system("python run.py \
     --epoch 10 \
     --gradient_accumulation_steps 4\
     --train_batch_size 2 \
-    --learning_rate 5e-5 \
+    --learning_rate 2e-5 \
     --seed 0")

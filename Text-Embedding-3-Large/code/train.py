@@ -7,7 +7,7 @@ os.system("python run.py \
     --model_type=text-embedding-3-large \
     --do_train \
     --epoch 10 \
-    --learning_rate 2e-4\
+    --learning_rate 2e-5\
     --train_batch_size 32\
     --eval_batch_size 1\
     --codebase_data_file=../../dataset/MutantBench_code_db_java.csv \

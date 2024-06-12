@@ -50,7 +50,7 @@ def set_seed(seed=42):
 
 
 @retry(Exception, tries=5, delay=1, backoff=2, max_delay=120)
-def ChatCompletion(content, prompt, client, model='gpt-3.5-turbo', temperature = 0, top_p=1, max_tokens=256, frequency_penalty=0, presence_penalty=0):
+def ChatCompletion(content, prompt, client, model='gpt-4', temperature = 0, top_p=1, max_tokens=256, frequency_penalty=0, presence_penalty=0):
     completion = client.chat.completions.create(
     model=model,
     messages=[

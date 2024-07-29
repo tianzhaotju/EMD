@@ -125,12 +125,7 @@ Please find their README.md files to run respective models.
 
 --- ---
 
-#### 5) Time efficiency of studied EMD techniques.
-<img src="./figs/rq4.png" alt="drawing" width="600">
-
---- ---
-
-#### 6) t-SNE plots showing the embedding of mutant pairs. EQ/NEQ represents equivalent/non-equivalent, respectively.
+#### 5) t-SNE plots showing the embedding of mutant pairs. EQ/NEQ represents equivalent/non-equivalent, respectively.
 <img src="./figs/embedding.png" alt="drawing" width="600">
 
 --- ---

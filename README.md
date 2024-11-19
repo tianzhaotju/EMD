@@ -4,6 +4,8 @@
 
 In this study, we empirically investigate various LLMs with different learning strategies for equivalent mutant detection. This is a replication package for our empirical study. 
 
+🏆 **ACM SIGSOFT Distinguished Paper Award** (ISSTA 2024)
+
 --- --- ---
 
 

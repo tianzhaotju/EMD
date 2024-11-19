@@ -1,4 +1,4 @@
-# Large Language Models for Equivalent Mutant Detection: How Far are We?
+# Large Language Models for Equivalent Mutant Detection: How Far Are We?
 
 <img src="./figs/overview.png" alt="drawing" width="800">
 

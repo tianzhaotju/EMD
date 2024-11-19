@@ -4,9 +4,10 @@
 
 In this study, we empirically investigate various LLMs with different learning strategies for equivalent mutant detection. This is a replication package for our empirical study. 
 
-* **Contact** *: Feel free to contact Zhao Tian (tianzhao@tju.edu.cn), Honglin Shu (shu.honglin.167@s.kyushu-u.ac.jp), and Xuejie Cao (caoxuejie@tju.edu.cn) if you have any further questions about the code.
-
 --- --- ---
+
+
+***Contact***: Feel free to contact Zhao Tian (tianzhao@tju.edu.cn), Honglin Shu (shu.honglin.167@s.kyushu-u.ac.jp), and Xuejie Cao (caoxuejie@tju.edu.cn) if you have any further questions about the code.
 
 
 ## 1. Environment
